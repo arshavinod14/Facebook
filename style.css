@@ -1,0 +1,175 @@
+.header{
+    background: #3b5998;
+    width: 100%;
+    height:85px;
+}
+
+body{
+    margin: 0; /*will be filled---or else there will be some space in borders*/
+    font-family:Arial, Helvetica, sans-serif,Helvetica Neue; 
+}
+.logo{
+    width:50%;
+    padding-top:30px;
+    float: left;
+}
+
+.login{
+    width:50%;
+    float: left;
+    padding-top: 10px;
+
+}
+
+.logo-text{
+    color: #ffff;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none; /* to remove the underline from the a tag which will come as default*/
+    font-family:Arial, Helvetica, sans-serif,Helvetica Neue;  
+    margin-left: 170px;
+    
+}
+.login-label{
+    color: #ffff;
+    width: 11px;
+
+}
+
+.login-controls{
+    margin-left: 100px;;
+
+}
+.password{
+    color: #ffff;
+    font-size: 12px;
+    text-decoration: none;
+    color: #9cb4d8;
+    
+}
+
+.sub-btn{
+    background-color: #4267b2;
+    color:#ffff;
+    border-color: #29487d;
+    cursor: pointer;  /*when hovered in the button it will be pointer*/
+    position:relative;
+    left: 5px;
+}
+
+.sub-btn:hover{  /*if we hover what should happen    sub-btn:action   action cheyan vendi ane colon use cheyane*/
+    background:#29487d;
+}
+
+.left-section{
+    width: 50%;
+    float: left;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+.right-section{
+    width: 40%;
+    float: left;
+}
+
+.main-body{
+    background: linear-gradient(white,#d3d7e4);
+    width: 100%;  /*vertical*/
+    height:685px;   /*horizontal*/
+}
+
+.image{
+    width: 595px;
+    
+}
+.para
+{
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.heading1{
+    font-size: 40px;
+    font-weight:bold;
+    
+}
+
+.para1{
+
+    font-size: 20px;
+}
+
+
+.firstname{
+    height: 35px;
+    width:250px;
+    border-radius:5px;
+    font-size:15px;
+    border-color: #ffff;
+}
+
+.surname{
+    margin-left: 15px;
+    height: 35px;
+    width:250px;
+    border-radius:5px;
+    font-size:15px;
+    border-color: #ffff;
+}
+
+.email{
+    margin-top: 20px;
+    height: 35px;
+    width:535px;
+    border-radius:5px;
+    font-size:15px;
+    border-color: #ffff;
+}
+
+.password1{
+    margin-top: 20px;
+    height: 35px;
+    width:535px;
+    border-radius:5px;
+    font-size:15px;
+    border-color: #ffff; 
+}
+
+.para2{
+    margin-top: 20px;
+    font-weight: bold;
+    color: grey;
+}
+.para3{
+    font-weight: bold;
+    color: grey;
+}
+
+.button{
+    display: inline;
+    background-color: #29962c;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 30px;
+    border:none;
+    cursor: pointer;
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+.nav{
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.footer{
+    padding-right: 30px;
+    padding-top: 30px;
+}
